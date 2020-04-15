@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  devcd:
+    image: devcd
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80
